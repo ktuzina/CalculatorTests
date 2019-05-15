@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Calculator" verbose="1" parallel="true" thread-count="2">
+
+    <test name="Sum tests">
+        <groups>
+            <run>
+                <include name="sum"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.training.task.module4.simpleoperations.SumLongTest"></class>
+            <class name="com.training.task.module4.simpleoperations.SumDoubleTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Calculator" verbose="1">
+
+    <test name="all-tests">
+        <packages>
+            <package name="com.training.task.module4.simpleoperations"></package>
+            <package name="com.training.task.module4.power"></package>
+            <package name="com.training.task.module4.positivenegative"></package>
+            <package name="com.training.task.module4.trigonometry"></package>
+        </packages>
+    </test>
+    <packages></packages>
+</suite>
